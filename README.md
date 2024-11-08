@@ -1,4 +1,4 @@
-**ZERO2HER**
+**ZERO2HERO**
 
 
 Hướng dẫn chạy Blockmesh trên vps
@@ -15,14 +15,16 @@ sau đó tạo 1 phiên screen bằng lệnh
 screen -S blockmesh
 Bắt đầu cài đặt và chạy blockmesh, chạy lệnh bên dưới
 
-wget -O blockmesh.sh https://raw.githubusercontent.com/phuctranduy2/blockmesh/refs/heads/main/blockmesh.sh && chmod +x blockmesh.sh && ./blockmesh.sh
+[wget -O blockmesh.sh https://raw.githubusercontent.com/phuctranduy2/blockmesh/refs/heads/main/blockmesh.sh && chmod +x blockmesh.sh && ./blockmesh.sh]
 
 Đến bước điền tài khoản mật khẩu thì điền tài khoản blockmesh vào là được (đã xác minh gmail)
 
 Kiểm tra log bằng lệnh
 
-docker logs -f blockmesh-cli-container
+[docker logs -f blockmesh-cli-container]
+
 anh em muốn vào lại phiên thì dùng
 
-screen -r blockmesh
+[screen -r blockmesh]
+
 thoát phiên dùng tổ hợp phím ctrl + a rồi d (google cho chi tiết các lệnh)
