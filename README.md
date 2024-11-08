@@ -16,6 +16,7 @@ screen -S blockmesh
 Bắt đầu cài đặt và chạy blockmesh, chạy lệnh bên dưới
 
 wget -O blockmesh.sh https://raw.githubusercontent.com/phuctranduy2/blockmesh/refs/heads/main/blockmesh.sh && chmod +x blockmesh.sh && ./blockmesh.sh
+
 Đến bước điền tài khoản mật khẩu thì điền tài khoản blockmesh vào là được (đã xác minh gmail)
 
 Kiểm tra log bằng lệnh
